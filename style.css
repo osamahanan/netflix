@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+.main {
+  background-image: url("./images/bg.jpg");
+  height: 80vh;
+  width: 100vw;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-size: 1200px 100vw; */
+  background-size: cover;
+  position: relative;
+  /* background-color: black; */
+}
+.main .box {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.74;
+  max-width: 100vw;
+}
+nav {
+    width: 90vw;
+    height: 60px;
+    padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  max-width: 100vw;
+}
+
+
+nav img {
+  width: 150px;
+  height: 150px;
+  z-index: 110;
+}
+
+
+
+.hero {
+    max-width: 100vw;
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  color: white;
+  text-align: center;
+  font-family: "Martel Sans";
+  width: 100%;
+  text-transform: capitalize;
+  padding: 55px;
+}
+
+.first {
+  font-weight: bold;
+  font-size: 4rem;
+}
+.jan {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.mota {
+  font-weight: 500;
+  /* font-size: 1.2rem; */
+}
+.lala {
+  background-color: black;
+  color: white;
+}
+
+.janu-wala {
+  margin-top: 1rem;
+}
+
+.get-start {
+  background-color: red;
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+  /* font-size: 1rem; */
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+input {
+  padding: 0.6rem 2rem 0.6rem 0.4rem;
+  background-color: transparent;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid rgba(77, 69, 69, 0.842);
+  width: 250px;
+}
+.billo {
+  background-color: rgb(223, 22, 22);
+  color: white;
+  width: 80px;
+  font-family:   sans-serif;
+  font-weight: bold;
+  border-radius: 7px;
+  padding: .5rem;
+  font-weight: bold;
+}
+
+
+
+/* Hero Section */
+
+.hero::after {
+    content: '';
+    position: absolute;
+    bottom: -30px; 
+    left: 0;
+    width: 100%;
+    height: 20px; 
+    background: radial-gradient(circle, #ff3300, #141414); 
+    border-radius: 100% 100% 0 0 / 50px 50px 0 0;
+    box-shadow: 0 40px 100px rgba(25, 105, 255, 0.5);
+    z-index: 1;
+}
+
+section{
+padding: 4rem;
+background-color:black ;
+}
+
+h2{
+    height: 52px;
+    color: white;
+    text-transform: capitalize;
+    font-family:  monospace;
+    font-size: 2rem;
+    margin-bottom: .71rem;
+}
+
+select{
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    text-transform: capitalize;
+    margin: 6px;
+}
+
+.sallu-bhai{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    width: 80vw;
+    align-items: center;
+    padding-left: 145px;
+    padding-bottom: 4rem;
+}
+
+img{
+    height: 250px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+h3{
+    font-size: 2rem;
+    padding-left: 3rem;
+
+}
+
+.reason-to-join{
+    display: flex;
+    gap: 10px;
+    width: 80vw;
+    height: 400px;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.reason-to-join h1{
+    font-size: 1rem;
+}
+.reason-to-join p{
+    margin-top: 1rem;
+}
+
+.phudi-wali-class{
+    position: relative;
+    background-color: rgba(26, 85, 172,0.5);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    margin-left: 1rem;
+    /* font-weight: bold; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(25deg, rgba(23, 105, 228, 0.8), rgba(48, 186, 204, 0.8));
+}
+
+
+.phudi-wali-class img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.accordion-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .accordion {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-title {
+    display: block;
+    padding: 15px;
+    background-color: #3f3d3d;
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  
+  .accordion-input {
+    display: none;
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: rgb(94, 93, 93);
+    padding: 0 15px;
+  }
+  
+  .accordion-content p {
+    padding: 15px 0;
+  }
+  
+  .accordion-input:checked ~ .accordion-content {
+    max-height: 200px;
+  }
+  
+  /* Optional: Adding some icons */
+  .accordion-title:after {
+    content: '\002B'; /* Plus symbol */
+    font-size: 1.5rem;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    transition: transform 0.3s;
+  }
+  
+  .accordion-input:checked + .accordion-title:after {
+    transform: rotate(45deg); /* Turns the plus sign into a cross when expanded */
+  }
+  
+
+
+  .netflix-ki-maan-ka-bhosda{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+    justify-content: center;
+    align-items: center;
+  }
